@@ -15,20 +15,22 @@ public class HellsTriangle {
             int b = a + 1;
             StringBuffer str = new StringBuffer().append(resultArray[0]);
 
-            for (int i = 0; i < triangle.length; i++) {
-                if(i>0){
-                    for (int j = 0; j < triangle[i].length; j++) {
-                        if(i>0 && j==a){
-                            if(triangle[i][a] >= triangle[i][b]){
-                                resultArray[i] = triangle[i][a];
-                            }else{
-                                resultArray[i] = triangle[i][b];
-                                a = b;
-                                b = a+1;
+            if(triangle.length>1){
+                for (int i = 0; i < triangle.length; i++) {
+                    if(i>0){
+                        for (int j = 0; j < triangle[i].length; j++) {
+                            if(i>0 && j==a){
+                                if(triangle[i][a] >= triangle[i][b]){
+                                    resultArray[i] = triangle[i][a];
+                                }else{
+                                    resultArray[i] = triangle[i][b];
+                                    a = b;
+                                    b = a+1;
+                                }
+                                str.append(" + " + resultArray[i]);
+                                maximumTotal += resultArray[i];
+                                break;
                             }
-                            str.append(" + " + resultArray[i]);
-                            maximumTotal += resultArray[i];
-                            break;
                         }
                     }
                 }
