@@ -6,32 +6,37 @@ public class HellsTriangle {
     }
 
     public static int maximumTotal( int[][] triangle ){
-        int[] resultArray = new int[triangle.length];
-        resultArray[0] = triangle[0][0];
-        int maximumTotal = triangle[0][0];
-        int a = 0;
-        int b = a + 1;
-        StringBuffer str = new StringBuffer().append(resultArray[0]);
+        int maximumTotal = 0;
+        if(triangle!=null){
+            int[] resultArray = new int[triangle.length];
+            resultArray[0] = triangle[0][0];
+            maximumTotal = triangle[0][0];
+            int a = 0;
+            int b = a + 1;
+            StringBuffer str = new StringBuffer().append(resultArray[0]);
 
-        for (int i = 0; i < triangle.length; i++) {
-            if(i>0){
-                for (int j = 0; j < triangle[i].length; j++) {
-                    if(i>0 && j==a){
-                        if(triangle[i][a] >= triangle[i][b]){
-                            resultArray[i] = triangle[i][a];
-                        }else{
-                            resultArray[i] = triangle[i][b];
-                            a = b;
-                            b = a+1;
+            for (int i = 0; i < triangle.length; i++) {
+                if(i>0){
+                    for (int j = 0; j < triangle[i].length; j++) {
+                        if(i>0 && j==a){
+                            if(triangle[i][a] >= triangle[i][b]){
+                                resultArray[i] = triangle[i][a];
+                            }else{
+                                resultArray[i] = triangle[i][b];
+                                a = b;
+                                b = a+1;
+                            }
+                            str.append(" + " + resultArray[i]);
+                            maximumTotal += resultArray[i];
+                            break;
                         }
-                        str.append(" + " + resultArray[i]);
-                        maximumTotal += resultArray[i];
-                        break;
                     }
                 }
             }
+            System.out.println( str.toString() + " = " + maximumTotal);
+            return maximumTotal;
         }
-        System.out.println( str.toString() + " = " + maximumTotal);
+        System.err.println("Could not perform operation: Triangle is invalid or null.");
         return maximumTotal;
     }
 }

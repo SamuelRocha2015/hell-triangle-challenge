@@ -9,4 +9,9 @@ public class HellsTriangleTest {
         assertEquals(26, HellsTriangle.maximumTotal(triangle));
     }
 
+    @Test
+    public void hellsTriangleNullTest(){
+        int[][] triangle = null;
+        assertEquals(0, HellsTriangle.maximumTotal(triangle));
+    }
 }
