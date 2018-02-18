@@ -14,4 +14,10 @@ public class HellsTriangleTest {
         int[][] triangle = null;
         assertEquals(0, HellsTriangle.maximumTotal(triangle));
     }
+
+    @Test
+    public void hellsTriangleOneElementTest(){
+        int[][] triangle = {{6}};
+        assertEquals(6, HellsTriangle.maximumTotal(triangle));
+    }
 }

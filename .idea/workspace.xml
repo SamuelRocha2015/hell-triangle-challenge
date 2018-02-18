@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fec37ff4-81ab-44e1-b570-6be25cd3859d" name="Default" comment="validation: Triangle is invalid or null.">
+    <list default="true" id="fec37ff4-81ab-44e1-b570-6be25cd3859d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/hell-triangle-challenge/HellsTriangle.class" afterPath="$PROJECT_DIR$/out/production/hell-triangle-challenge/HellsTriangle.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/hell-triangle-challenge/HellsTriangleTest.class" afterPath="$PROJECT_DIR$/out/production/hell-triangle-challenge/HellsTriangleTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/HellsTriangle.java" afterPath="$PROJECT_DIR$/src/HellsTriangle.java" />
+      <change beforePath="$PROJECT_DIR$/src/HellsTriangleTest.java" afterPath="$PROJECT_DIR$/src/HellsTriangleTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,21 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HellsTriangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HellsTriangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HellsTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            <state relative-caret-position="255">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HellsTriangleTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HellsTriangleTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HellsTriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +58,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/HellsTriangleTest.java" />
         <option value="$PROJECT_DIR$/src/HellsTriangle.java" />
+        <option value="$PROJECT_DIR$/src/HellsTriangleTest.java" />
       </list>
     </option>
   </component>
@@ -217,7 +215,7 @@
       <updated>1518913895973</updated>
       <workItem from="1518913917816" duration="7834000" />
       <workItem from="1518959869690" duration="10621000" />
-      <workItem from="1518977750215" duration="6026000" />
+      <workItem from="1518977750215" duration="6307000" />
     </task>
     <task id="LOCAL-00001" summary="validation: Triangle is invalid or null.">
       <created>1518983327723</created>
@@ -226,19 +224,17 @@
       <option name="project" value="LOCAL" />
       <updated>1518983327723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Triangle : get first element.">
+      <created>1518989557194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518989557194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HellsTriangleTest - 2018.02.18 at 15h 04m 14s.xml">
-      <configuration name="HellsTriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HellsTriangleTest - 2018.02.18 at 15h 06m 54s.xml">
-      <configuration name="HellsTriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HellsTriangleTest - 2018.02.18 at 15h 35m 16s.xml">
-      <configuration name="HellsTriangleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HellsTriangleTest - 2018.02.18 at 15h 35m 53s.xml">
       <configuration name="HellsTriangleTest" configurationId="JUnit" />
     </history-entry>
@@ -260,9 +256,18 @@
     <history-entry file="HellsTriangleTest - 2018.02.18 at 18h 17m 42s.xml">
       <configuration name="HellsTriangleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HellsTriangleTest - 2018.02.18 at 18h 32m 06s.xml">
+      <configuration name="HellsTriangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HellsTriangleTest - 2018.02.18 at 18h 32m 37s.xml">
+      <configuration name="HellsTriangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HellsTriangleTest - 2018.02.18 at 18h 33m 54s.xml">
+      <configuration name="HellsTriangleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24481000" />
+    <option name="totallyTimeSpent" value="24762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,7 +291,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23856209" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24019608" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24019608" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -318,7 +323,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="validation: Triangle is invalid or null." />
-    <option name="LAST_COMMIT_MESSAGE" value="validation: Triangle is invalid or null." />
+    <MESSAGE value="Triangle : get first element." />
+    <option name="LAST_COMMIT_MESSAGE" value="Triangle : get first element." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,7 +336,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -390,21 +396,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HellsTriangleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/HellsTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HellsTriangle.java">
+    <entry file="file://$PROJECT_DIR$/src/HellsTriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
