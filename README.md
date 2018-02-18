@@ -33,7 +33,7 @@ OS códigos que executam os testes estão isolados na classe `HellsTriangleTest`
 
 **OBS**
 
- - O método `maximumTotal` valida se o triângulo não é nulo, caso seja, o usuário recebe a mensagem: "Could not perform operation: Triangle is invalid or null."
+ - O método `maximumTotal` valida se o triângulo não é nulo, caso seja, o usuário recebe a mensagem: *"Could not perform operation: Triangle is invalid or null"*
  - O primeiro elemento do triangulo é recuperado antes de iniciar as iterações, fiz dessa forma pois não há necessidade de iterar para pegar o primeiro elemento, apenas os próximos. Outra vantagem é que caso a entrada só tenha um elemento, o código não executa nenhuma iteração sobre a estrutura. 
  - Criei variáveis auxiliares `firstIndexNextLine` e `secondIndexNextLine` que indicam quais posições da próxima linha devem ser comparadas.
  - Criei a `StringBuffer str` para ir armazenado a saída que será impressa no console ao final da execução do método, essa variável é responsável por imprimir o somatório.
